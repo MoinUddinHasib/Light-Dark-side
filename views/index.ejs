@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <style>
+            div {
+                padding: 10px;
+                font-size: 15px;
+                border-style: solid;
+            }
+
+            .dark-mode {
+                background-color: black;
+                color: white;
+            }
+        </style>
+        <script>
+            function DarkFunction() {
+              var element = document.body;
+              element.classList.toggle("dark-mode");
+            }
+        </script>
+    </head>
+    <body>
+        <p>
+        <button onclick="DarkFunction()">Dark-Mode</button>
+        </p>
+        <div>
+            Switch used <%= times %> times <br>
+            Dark-mode was on: <%= last %>
+        </div>
+        <p>
+            Gli aminoacidi coinvolti nella sintesi proteica sono 20 e tra questi 9 sono totalmente essenziali (AAE) – leucina, isoleucina e valina (BCAA), lisina, metionina, treonina, fenilalanina, triptofano, istidina – durante l'accrescimento o in condizioni di "precarietà omeostatica" (ad esempio, patologie) altri 3 aminoacidi, l'arginina, la cisteina e la tirosina diventano essenziali (normalmente definiti condizionatamente o limitatamente essenziali). Il termine essenziali sta ad indicare l'incapacità dell'organismo di sintetizzare questi aminoacidi a partire da altri aminoacidi tramite trasformazioni biochimiche. Questi aminoacidi devono essere pertanto introdotti con la dieta. Gli alimenti di origine animale hanno il profilo amminoacidico migliore perché generalmente presentano tutti gli aminoacidi essenziali in buone quantità. A differenza di questi, gli alimenti di origine vegetali presentano solitamente carenze di uno o più aminoacidi essenziali. Tuttavia queste mancanze possono essere superate attraverso giuste alternanze alimentari, ad esempio cereali e leguminose – un tempo si credeva che fosse necessario associarli nello stesso pasto; oggi sappiamo che è sufficiente alternarli con regolarità. Si parla in questo caso di mutua integrazione perché gli aminoacidi di cui è carente la pasta vengono forniti dai fagioli e viceversa.
+        </p>  
+    </body>
+</html>
