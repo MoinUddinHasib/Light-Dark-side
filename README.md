@@ -9,7 +9,7 @@
 
 4) Avviare il server
 
-5) Aprire il browser ed andare su http://localhost:4000/ù
+5) Aprire il browser ed andare su http://localhost:4000/
 
 
 ###### Conessione database
