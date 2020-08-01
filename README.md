@@ -13,7 +13,7 @@
 
 
 ###### Conessione database
-'''
+```javascript
 const mysql = require("mysql");
 
 var db = mysql.createConnection({
@@ -23,4 +23,4 @@ var db = mysql.createConnection({
     database : 'my_db',
     port : '3000'
   });
-'''
+```
