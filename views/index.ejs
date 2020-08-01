@@ -17,12 +17,14 @@
               var element = document.body;
               element.classList.toggle("dark-mode");
             }
+            function Start() {
+              if(<%= last %>) DarkFunction();
+            }
         </script>
     </head>
-    <body>
-        <p>
-        <button onclick="DarkFunction()">Dark-Mode</button>
-        </p>
+    <body onload="Start()">
+        <input type="button" onclick="DarkFunction();location.href='/update'" value="Dark-Mode"/>
+       
         <div>
             Switch used <%= times %> times <br>
             Dark-mode was on: <%= last %>
